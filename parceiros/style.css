@@ -29,7 +29,6 @@ nav {
 
 .nav-logo img {
     width: 100px;
-    padding-bottom: 10px;
 }
 
 .nav-menu {
@@ -50,7 +49,6 @@ li:hover {
 
 .nav-menu li {
     margin: 0 15px;
-    padding-top: 9px;
 }
 
 .nav-menu li a {
@@ -82,11 +80,10 @@ li:hover {
         position: absolute;
         top: 84px;
         left: 0;
-        position: fixed;
         background-color: #010d38;
         width: 100%;
         position: fixed;
-        
+
     }
 
     .nav-menu.active {
