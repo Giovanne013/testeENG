@@ -1,0 +1,503 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(/imagen_Sessão/712.jpg);
+        
+        object-fit: cover;
+        
+    }
+
+    nav {
+        background-color: #010d38;
+        color: #fff;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        margin: 3px;
+    }
+
+    .nav-logo img {
+        width: 100px;
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-menu li {
+        transition: 0.1s;
+
+    }
+
+    .nav-menu li:hover {
+        transform: scale(1.1);
+    }
+
+    .nav-menu li {
+        margin: 0 15px;
+    }
+
+    .nav-menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .menu-toggle .bar {
+        height: 3px;
+        width: 25px;
+        background-color: #fff;
+        margin: 4px 0;
+        transition: all 0.3s ease;
+    }
+
+    #tamanho-img {
+        width: 100%;
+        height: 380;
+        background-position: center;
+        background-size: auto;
+    }
+
+    .nav-container-texto {
+        display: flex;
+        justify-content: center;
+        height: 32px;
+
+    }
+
+    .nav-container-texto2 {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .texto-titulo1 h1 {
+        padding-top: 5px;
+        font-size: 22px;
+        color: #2e2e2e;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .texto-titulo4 {
+        padding-top: 0px;
+        color: #4262d8;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .separador-span {
+        color: rgb(223, 2, 2);
+    }
+
+
+    .container-exigencias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 180px;
+        background-color: #010d38;
+        color: white;
+
+    }
+
+    .fonte-paragrafo {
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* carrosel css */
+
+
+
+
+
+
+
+
+    .slider {
+        padding-top: 90px;
+        margin: 10px;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .slides {
+
+        width: 400%;
+        height: 400px;
+        display: flex;
+    }
+
+    .slides input {
+        display: none;
+
+    }
+
+    .slide {
+        width: 25%;
+    }
+
+
+
+
+    .manual-navigation {
+        position: sticky;
+        width: auto;
+        margin-top: -18px;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    #radio1:checked~.frist {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.frist {
+        margin-left: -25%;
+    }
+
+    #radio3:checked~.frist {
+        margin-left: -50%;
+    }
+
+    #radio4:checked~.frist {
+        margin-left: -75%;
+    }
+
+    #radio5:checked~.frist {
+        margin-left: -100%;
+    }
+
+
+
+
+
+    .navigation-auto {
+        position: absolute;
+        width: 400px;
+        margin-top: 381px;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .navigation-auto div:not(:last-child) {
+        margin-right: 20px;
+    }
+
+
+    /*Container foto */
+
+    .container-video {
+        margin-top: 9px;
+
+    }
+
+    .foto {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .foto2 {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .slide img {
+        width: 600px;
+        border-radius: 10px;
+        margin-top: -80px;
+    }
+
+    .div-mae {
+        background-image: url(/imagen_Sessão/712.jpg);
+        object-fit: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .div-conteudo {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #conteudo-cart {
+        margin-top: -50px;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        color: #4c71f8;
+
+    }
+
+    strong {
+        color: #1637af;
+    }
+
+
+    footer {
+        height: 200px;
+        background-color: #0c0c0cf1;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        background-image: url(/imagen_Sessão/logoelas2\ cpo.jpg);
+        background-repeat: no-repeat;
+
+    }
+
+    footer a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 1.2em;
+        
+    }
+
+    .lala  {
+        margin: 30px;
+        float: right;
+    }
+
+    p {
+        font-family: sans-serif;
+        color: #ebecf098;
+    }
+
+    #instagram:hover {
+        color: #fb32ea;
+        /* Cor ao passar o mouse */
+        transition: 1s;
+    }
+
+    #WhatsApp:hover {
+        color: #1bd818;
+        /* Cor ao passar o mouse */
+        transition: 1s;
+    }
+
+    #Email:hover {
+        color: #63E6BE;
+        /* Cor ao passar o mouse */
+        transition: 1s;
+    }
+
+
+    .aaa {
+        padding-top: 3px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .nav-menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            background-color: #010d38;
+            width: 100%;
+            position: fixed;
+
+        }
+
+        .nav-menu.active {
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+
+        .texto-titulo1 h1 {
+            color: #010d38;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .nav-container-texto {
+            height: 15px;
+        }
+
+        .nav-container-texto2 {
+            margin-top: -30px;
+            height: 100px;
+            background-image: url(/imagen_Sessão/712.jpg);
+            object-fit: cover;
+        }
+
+
+        .texto-titulo4 h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 48px;
+            margin: 6px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .fonte-paragrafo {
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .container-exigencias {
+            height: 140px;
+        }
+
+        .div-texto {
+            gap: 30px;
+            color: #4262d8;
+        }
+
+        #conteudo-cart {
+            top: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #conteudo-cart {
+            margin-top: -60px;
+            flex-direction: column;
+            font-size: 15px;
+
+        }
+
+        .div-mae {
+            display: flex;
+            flex-direction: column;
+            height: 520px;
+            width: 100%;
+        }
+
+
+        .foto {
+            height: 400px;
+        }
+
+        .slider {
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .slides-img-slid {
+            width: 100px;
+        }
+
+        .slides-img-slid {
+            max-height: 300px;
+            max-width: 300px;
+        }
+
+        body {
+            background-image: url(/imagen_Sessão/712.jpg);
+            object-fit: cover;
+        }
+
+        footer {
+            width: 100%;
+            background-image: url(/imagen_Sessão/logoelas2\ cpo.jpg);
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
+
+        footer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 320px;
+            object-fit: cover;
+            background-color: #0c0c0cec;
+
+        }
+
+    }
